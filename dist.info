@@ -1,9 +1,9 @@
 --- This file is part of LuaDist project
 
-name = "luasql"
+name = "luasql-mysql"
 version = "2.3.0"
 
-desc = "Database connectivity for Lua"
+desc = "Database connectivity for Lua - MySQL driver"
 author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
 license = "Kepler"
 maintainer = "Peter Kapec"
@@ -11,4 +11,6 @@ url = "http://www.keplerproject.org/luasql/"
 
 depends = {
 	"lua ~> 5.1",
+	"luasql-2.3.0",
+	"libmysql >= 6.0.2",
 }
