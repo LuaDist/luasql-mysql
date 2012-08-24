@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "luasql"
+version = "2.3.0"
+
+desc = "Database connectivity for Lua"
+author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
+license = "Kepler"
+maintainer = "Peter Kapec"
+url = "http://www.keplerproject.org/luasql/"
+
+depends = {
+	"lua ~> 5.1",
+}
