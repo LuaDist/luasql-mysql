@@ -11,4 +11,4 @@ include ( lua )
 
 find_package ( MySQL REQUIRED )
 include_directories ( ${MYSQL_INCLUDE_DIRECTORIES} src )
-install_lua_module ( mysql src/ls_mysql.c src/luasql.c LINK ${MYSQL_LIBRARIES} )
+install_lua_module ( luasql.mysql src/ls_mysql.c src/luasql.c LINK ${MYSQL_LIBRARIES} )
