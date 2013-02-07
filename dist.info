@@ -1,0 +1,22 @@
+type = "x86_64"
+arch = "Darwin"
+author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
+depends = {
+[[lua ~> 5.1]],
+[[luasql-2.3.0]],
+[[libmysql >= 6.0.2]],
+}
+
+desc = "Database connectivity for Lua - MySQL driver"
+version = "2.3.0"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/luasql/mysql.so]],
+}
+,
+}
+
+license = "Kepler"
+name = "luasql-mysql"
+url = "http://www.keplerproject.org/luasql/"
